@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Tea } from '../models.tea.model';
 
 @Component({
@@ -6,11 +6,10 @@ import { Tea } from '../models.tea.model';
   templateUrl: './tea-list.component.html',
   styleUrls: ['./tea-list.component.css']
 })
-export class TeaListComponent implements OnInit {
+export class TeaListComponent {
+  @Input() childTeaList: Tea[];
+  @Output()
 
-  constructor() { }
 
-  ngOnInit() {
-  }
 
 }

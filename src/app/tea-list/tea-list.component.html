@@ -1,3 +1,10 @@
-<p>
-  tea-list works!
-</p>
+<div class="card" *ngFor="let currentTea of teaList">
+  <div class="card-header">
+    <h4 class="card-title">{{currentTea.name}}</h4>
+  </div>
+  <div class="card-body">
+    <h5>{{currentTea.pints}} pints left</h5>
+    <p>{{currentKeg.brewery}}</p>
+    <p>{{currentKeg.abv}}</p>
+    <button (click)="addToCart(currentTea)" class="btn btn-success" name="button">Edit Keg</button>
+</div>
