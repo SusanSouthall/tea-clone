@@ -8,7 +8,7 @@ import { Tea } from '../models.tea.model';
 })
 export class AppComponent {
   title = 'teaClone';
-  selectedTead = null;
+  selectedTea = null;
 
   masterTeaList: Tea[] = [
     new Tea('Royal Wedding Black Tea', 'Cheers to special celebrations!', 7),
