@@ -1,8 +1,9 @@
 export class Tea {
   public addToCart: boolean = false;
 
-let tea
-  constructor(public title: string, public description: string, public price: number) {
+// public teaList: [];
+
+  constructor(public name: string, public description: string, public price: number) {
 
   }
 }
