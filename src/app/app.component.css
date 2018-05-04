@@ -1,0 +1,6 @@
+@media only screen and (max-width: 1010px) and (min-width: 826px)
+
+#headerarea-bg {
+    width: 400px;
+    background: url(images/pd-alt-header-bg-sm.png) right top no-repeat;
+}
