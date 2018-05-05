@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Tea } from '../models.tea.model';
+import { Tea } from './models/tea.model';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +7,7 @@ import { Tea } from '../models.tea.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'teaClone';
+  title = 'tea-clone';
   selectedTea = null;
 
   masterTeaList: Tea[] = [

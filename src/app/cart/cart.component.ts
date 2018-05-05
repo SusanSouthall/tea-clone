@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Tea } from '../models.tea.model';
+import { Tea } from '../models/tea.model';
 
 @Component({
   selector: 'app-cart',

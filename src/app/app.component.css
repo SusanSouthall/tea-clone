@@ -1,6 +1,15 @@
-@media only screen and (max-width: 1010px) and (min-width: 826px)
+/* @media only screen and (max-width: 1010px) and (min-width: 826px) */
 
-#headerarea-bg {
+/* #headerarea-bg {
     width: 400px;
     background: url(images/pd-alt-header-bg-sm.png) right top no-repeat;
+}
+/* @media (min-width: 768px) */
+/* #header #logo img {
+    margin: 0;
+    display: inline;
+} */
+.card {
+  border: 5px solid green;
+  padding: 10px;
 }
